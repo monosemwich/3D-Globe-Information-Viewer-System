@@ -1,4 +1,4 @@
-## MAR 2026 - Mapmodes Prototype & Tooltips
+## MAR 2026 - Mapmodes Prototype & Tooltip System
 
 Greetings, this is the second entry of my journey on documenting a project of mine - a comprehensive map view system with the purpose of displaying the geography, political situation, demographical + economical information, and trade nodes for a fantasy world.
 
@@ -48,6 +48,8 @@ Now that we got our logic in place, we just have to create a function that switc
 - We use an enum class to differientiate between mapmodes because it's easy to swap and it allows us to use if statements to let the code know which logic system to use especially in the part where the raycast catches either the R, G, or B values to be used as ID.
 - Another is the visual asthetics part which changes the globe's material texture.
 - Lastly, the technical aspects part which changes the color-coded map texture
+
+[Code sample of the function can be found here!](https://github.com/monosemwich/3D-Globe-Information-Viewer-System/blob/monosemwich-journal/MapmodeSwitchFunctionSample.cs)
 
 ## In the end our result is presented like this:
 
